@@ -10,5 +10,11 @@
     "name": "Mota",
     "email": "gustavo@email.com",
     "password": "$2b$10$TUboudKjS79NPaZaMV4H7e3NyvX3bpYUQ9dcrc/u3hEesCPhbgX42"
+  },
+  {
+    "userId": "1779543912077",
+    "name": "Renato Queiroz",
+    "email": "renatoidenk@gmail.com",
+    "password": "$2b$10$NPzpC.pxdzKemweVgq9q8u8QTlxhwD/TqbeNJEWoLcxHSwSf6e986"
   }
 ]
