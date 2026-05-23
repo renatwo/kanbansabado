@@ -6,8 +6,8 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 
 const app = express();
-const PORT = 3000;
-const SECRET_KEY = 'super-secret-key-for-jwt-do-not-use-in-prod';
+const PORT = process.env.PORT || 3000;
+const SECRET_KEY = process.env.SECRET_KEY || 'super-secret-key-for-jwt-do-not-use-in-prod';
 
 app.use(cors());
 app.use(express.json());
